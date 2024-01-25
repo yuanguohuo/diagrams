@@ -1,0 +1,216 @@
+<mxfile host="app.diagrams.net" modified="2024-01-25T09:06:27.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0MyvbY27Trtcqr4GY0fB" version="22.1.21" type="device">
+  <diagram name="librados" id="viFRejHJCz3s1xsSrzRM">
+    <mxGraphModel dx="1841" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1010" width="1580" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="650" width="1580" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="1580" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-5" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 14px;&quot;&gt;class Rados&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#0066CC;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="80" y="357" width="910" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-6" value="&lt;font face=&quot;Courier New&quot;&gt;RadosClient *client;&lt;/font&gt;" style="text;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3kMBdD84PV1oY0vSfjga-5" vertex="1">
+          <mxGeometry y="26" width="910" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-9" value="&lt;font face=&quot;Courier New&quot;&gt;init()&lt;br&gt;&amp;nbsp;init2()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#bac8d3;" parent="1" vertex="1">
+          <mxGeometry x="107.5" y="437" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-25" value="&lt;font face=&quot;Courier New&quot;&gt;constructor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="101.25" y="1231" width="92.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-27" value="初始化RadosClient* client，RadosClient以及相关的类，如IoCtxImpl等，是librados的实际实现。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="507" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-28" value="&lt;font face=&quot;Courier New&quot;&gt;connect()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#bac8d3;" parent="1" vertex="1">
+          <mxGeometry x="280" y="437" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-30" value="&lt;font face=&quot;Courier New&quot;&gt;connect()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="273.75" y="1231" width="92.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-29" target="3kMBdD84PV1oY0vSfjga-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="810" as="sourcePoint" />
+            <mxPoint x="157" y="1151" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="970" />
+              <mxPoint x="320" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-28" target="3kMBdD84PV1oY0vSfjga-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="158" y="527" as="sourcePoint" />
+            <mxPoint x="158" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-35" value="没有依赖C CAP,直接调用&lt;br&gt;RadosClient::connect();" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="507" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-37" value="&lt;font face=&quot;Courier New&quot;&gt;ioctx_create()&lt;br&gt;&amp;nbsp;ioctx_create2()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#bac8d3;" parent="1" vertex="1">
+          <mxGeometry x="850" y="437" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-37" target="3kMBdD84PV1oY0vSfjga-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="558" y="527" as="sourcePoint" />
+            <mxPoint x="558" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-39" value="&lt;font face=&quot;Courier New&quot;&gt;create_ioctx()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="846.88" y="1231" width="126.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-36" target="3kMBdD84PV1oY0vSfjga-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="558" y="820" as="sourcePoint" />
+            <mxPoint x="557" y="1151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-42" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 14px;&quot;&gt;class IoCtx&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#0066CC;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="357" width="510" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-43" value="&lt;font face=&quot;Courier New&quot;&gt;IoCtxImpl *io_ctx_impl;&lt;/font&gt;" style="text;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" parent="3kMBdD84PV1oY0vSfjga-42" vertex="1">
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-44" value="返回class IoCtx的实例;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="846.88" y="507" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-47" value="&lt;font face=&quot;Courier New&quot;&gt;mon_command()&lt;br&gt;mgr_command()&lt;br&gt;osd_command()&lt;br&gt;pg_command()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#bac8d3;" parent="1" vertex="1">
+          <mxGeometry x="470" y="437" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-48" value="&lt;font face=&quot;Courier New&quot;&gt;mon_command()&lt;br&gt;mgr_command()&lt;br&gt;osd_command()&lt;br&gt;pg_command()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1231" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-47" target="3kMBdD84PV1oY0vSfjga-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="527" as="sourcePoint" />
+            <mxPoint x="330" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-46" target="3kMBdD84PV1oY0vSfjga-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="820" as="sourcePoint" />
+            <mxPoint x="330" y="1169" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="825" />
+              <mxPoint x="480" y="970" />
+              <mxPoint x="535" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-51" value="admin command；&lt;br&gt;没有依赖C CAP,直接调用&lt;br&gt;RadosClient::connect();" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-53" value="&lt;font face=&quot;Courier New&quot;&gt;pool_create()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;pool_delete()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;pool_lookup()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;pool_list()&lt;br&gt;get_pool_stats()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#bac8d3;" parent="1" vertex="1">
+          <mxGeometry x="660" y="437" width="130" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-55" value="&lt;font face=&quot;Courier New&quot;&gt;pool_create()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;pool_delete()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;lookup_pool()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;pool_list()&lt;br&gt;get_pool_stats()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1231" width="130" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-53" target="3kMBdD84PV1oY0vSfjga-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="557" as="sourcePoint" />
+            <mxPoint x="545" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-54" target="3kMBdD84PV1oY0vSfjga-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="498" y="835" as="sourcePoint" />
+            <mxPoint x="545" y="1169" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="838" />
+              <mxPoint x="680" y="970" />
+              <mxPoint x="725" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-58" value="没有依赖C CAP,直接调用&lt;br&gt;RadosClient::connect();" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="537" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-9" target="3kMBdD84PV1oY0vSfjga-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="780" as="sourcePoint" />
+            <mxPoint x="820" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3kMBdD84PV1oY0vSfjga-10" target="3kMBdD84PV1oY0vSfjga-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158" y="527" as="sourcePoint" />
+            <mxPoint x="158" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;class&amp;nbsp;RadosClient&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#6d8764;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1073" width="910" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-15" value="&lt;font face=&quot;Courier New&quot;&gt;MonClient monclient;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3kMBdD84PV1oY0vSfjga-14" vertex="1">
+          <mxGeometry y="26" width="910" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-16" value="&lt;font face=&quot;Courier New&quot;&gt;MgrClient mgrclient;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3kMBdD84PV1oY0vSfjga-14" vertex="1">
+          <mxGeometry y="52" width="910" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-45" value="&lt;font face=&quot;Courier New&quot;&gt;Objecter *objecter;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3kMBdD84PV1oY0vSfjga-14" vertex="1">
+          <mxGeometry y="78" width="910" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-17" value="&lt;font face=&quot;Courier New&quot;&gt;Messenger *messenger;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3kMBdD84PV1oY0vSfjga-14" vertex="1">
+          <mxGeometry y="104" width="910" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-10" value="&lt;font face=&quot;Courier New&quot;&gt;rados_create()&lt;br&gt;&amp;nbsp;rados_create2()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="760" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-29" value="&lt;font face=&quot;Courier New&quot;&gt;rados_connect()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="252.5" y="760" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-36" value="&lt;font face=&quot;Courier New&quot;&gt;rados_ioctx_create()&lt;br&gt;&amp;nbsp;rados_ioctx_create2()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="830" y="760" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-46" value="&lt;font face=&quot;Courier New&quot;&gt;rados_mon_command()&lt;br&gt;rados_mgr_command()&lt;br&gt;rados_osd_command()&lt;br&gt;rados_pg_command()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="745" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3kMBdD84PV1oY0vSfjga-54" value="&lt;font face=&quot;Courier New&quot;&gt;rados_pool_create()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;rados_pool_delete()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;rados_pool_lookup()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;rados_pool_list()&lt;br&gt;rados_ioctx_pool_stat()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="650" y="745" width="170" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-6" value="&lt;b&gt;C++ API&lt;br&gt;librados.hpp /&amp;nbsp;librados_cxx.cc&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="605" y="300" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-7" value="&lt;b&gt;C API&lt;br&gt;librados.h&amp;nbsp;/&amp;nbsp;librados_c.cc&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="605" y="670" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKJRVpyheqLy9PjCR0JE-8" value="&lt;b&gt;librados实现层&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="605" y="1020" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="440" y="-120" width="692" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-3" value="" style="shape=corner;whiteSpace=wrap;html=1;dx=210;dy=70;direction=west;fillColor=#fad9d5;strokeColor=none;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry x="222" width="470" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-5" value="&lt;b&gt;C API&lt;br&gt;librados.h&amp;nbsp;/&amp;nbsp;librados_c.cc&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry x="482" y="20" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry y="160" width="692" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-8" value="" style="shape=corner;whiteSpace=wrap;html=1;dx=210;dy=70;direction=east;fillColor=#dae8fc;strokeColor=none;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry width="470" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-4" value="&lt;b&gt;C++ API&lt;br&gt;librados.hpp /&amp;nbsp;librados_cxx.cc&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry x="52.5" y="20" width="365" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-9" value="&lt;b&gt;librados实现层&lt;br&gt;（C++代码，class RadosClient, IoCtxImpl, ...）&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry x="121" y="190" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-10" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;C++代码&lt;br&gt;部分调用C API;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;部分直接调用librados实现层;&lt;/b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry x="25" y="100" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx64GfmKYyqnjucC5kq5-11" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;extern &quot;C&quot;&lt;br&gt;{ C++代码，调用librados实现层 }&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Sx64GfmKYyqnjucC5kq5-13" vertex="1">
+          <mxGeometry x="400" y="100" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
