@@ -1,0 +1,336 @@
+<mxfile host="app.diagrams.net" modified="2024-02-05T07:24:54.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="V4f8Ix-xOTAxS26g2s4J" version="23.1.1" type="device" pages="2">
+  <diagram id="BFEeF0my4H_SDWl-YW-i" name="rbd-image-layout">
+    <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="10" width="1240" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="305" width="1050" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-39" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="385" width="650" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-2" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 记录对rbd pool做过哪些validatio，以后不必重复validate，例如&quot;overwrite validated&quot;，&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="110" width="270" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-3" value="rados-object:&amp;nbsp;&lt;b&gt;rbd_info&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="385" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-4" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;name_{ns0}&lt;/li&gt;&lt;li&gt;name_{ns1}&lt;/li&gt;&lt;li&gt;...&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="110" width="270" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-5" value="rados-object:&amp;nbsp;&lt;b&gt;rbd_namespace&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="692.5" y="110" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-6" value="注：默认只用default empty namespace，无此" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="234" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-8" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;default empty namespace&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="562.5" y="320" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-15" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: {img_id_1}&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="415" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-16" value="rados-object: &lt;b&gt;rbd_id.&lt;/b&gt;{img_name_1}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="551.25" y="415" width="207.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-18" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;lock.rbd_lock&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;access_timestamp&lt;/li&gt;&lt;li&gt;create_timestamp&lt;/li&gt;&lt;li&gt;features&lt;/li&gt;&lt;li&gt;modify_timestamp&lt;/li&gt;&lt;li&gt;object_prefix&lt;/li&gt;&lt;li&gt;order&lt;/li&gt;&lt;li&gt;size&lt;/li&gt;&lt;li&gt;snap_seq&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="525" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-19" value="rados-object: &lt;b&gt;rbd_header.&lt;/b&gt;{img_id_1}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="551.25" y="525" width="207.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-20" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: object-map&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;lock.rbd_lock&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="755" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-21" value="rados-object: &lt;b&gt;rbd_object_map&lt;/b&gt;&lt;b&gt;.&lt;/b&gt;{img_id_1}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="525.63" y="755" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-23" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;rbd pool&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="605.01" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-24" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: rbd image data&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;注：suffix&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="820" y="415" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-25" value="rados-object: &lt;b&gt;rbd_data.&lt;/b&gt;{img_id_1}_0000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="825.6300000000001" y="415" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-32" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: rbd image data&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="820" y="615" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-33" value="rados-object: &lt;b&gt;rbd_data.&lt;/b&gt;{img_id_1}_0001" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="825.6300000000001" y="615" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-36" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: rbd image data&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="820" y="775" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-37" value="rados-object: &lt;b&gt;rbd_data.&lt;/b&gt;{img_id_1}_0F00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="825.6400000000001" y="775" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;......&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="925" y="725" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-40" value="&lt;b&gt;rbd-image&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="762.5" y="890" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-41" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="200" y="385" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-11" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;id_{img_id_1}&lt;/li&gt;&lt;li&gt;id_{img_id_2}&lt;/li&gt;&lt;li&gt;id_......&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name_{img_name_1}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name_{img_name_2}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;name_......&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;" parent="yN8lbY9VIONkTtKmbRIW-41" vertex="1">
+          <mxGeometry width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-12" value="rados-object:&amp;nbsp;&lt;b&gt;rbd_directory&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="yN8lbY9VIONkTtKmbRIW-41" vertex="1">
+          <mxGeometry x="30" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-58" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;snap =&amp;gt; clone&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="600" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-59" value="rados-object:&amp;nbsp;&lt;b&gt;rbd_children&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="600" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-61" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;id_{trashed_img_id}&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="800" width="230" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="yN8lbY9VIONkTtKmbRIW-62" value="rados-object: &lt;b&gt;rbd_trash&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="800" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="996" width="1050" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1076" width="650" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-3" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;namespace: ns8&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="1011" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-4" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: {img_id_1}&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1106" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-5" value="rados-object: &lt;b&gt;ns8/rbd_id.&lt;/b&gt;{img_name_1}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550.63" y="1106" width="218.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-6" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;lock.rbd_lock&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;access_timestamp&lt;/li&gt;&lt;li&gt;create_timestamp&lt;/li&gt;&lt;li&gt;features&lt;/li&gt;&lt;li&gt;modify_timestamp&lt;/li&gt;&lt;li&gt;object_prefix&lt;/li&gt;&lt;li&gt;order&lt;/li&gt;&lt;li&gt;size&lt;/li&gt;&lt;li&gt;snap_seq&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1216" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-7" value="rados-object: &lt;b&gt;ns8/rbd_header.&lt;/b&gt;{img_id_1}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550.63" y="1226" width="228.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-8" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: object-map&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;lock.rbd_lock&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1446" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-9" value="rados-object: &lt;b&gt;ns8/rbd_object_map&lt;/b&gt;&lt;b&gt;.&lt;/b&gt;{img_id_1}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525.63" y="1446" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-10" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: rbd image data&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;注：suffix&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1106" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-11" value="rados-object: &lt;b&gt;ns8/rbd_data.&lt;/b&gt;{img_id_1}_0000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="825.6300000000001" y="1106" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-12" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: rbd image data&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1306" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-13" value="rados-object: &lt;b&gt;ns8/rbd_data.&lt;/b&gt;{img_id_1}_0001" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="825.6300000000001" y="1306" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-14" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: rbd image data&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1466" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-15" value="rados-object: &lt;b&gt;ns8/rbd_data.&lt;/b&gt;{img_id_1}_0F00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="825.6400000000001" y="1466" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;......&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="925" y="1416" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-17" value="&lt;b&gt;rbd-image&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="762.5" y="1581" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="1076" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-19" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;id_{img_id_1}&lt;/li&gt;&lt;li&gt;id_{img_id_2}&lt;/li&gt;&lt;li&gt;id_......&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name_{img_name_1}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name_{img_name_2}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;name_......&lt;/li&gt;&lt;li&gt;&lt;b&gt;state&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;" vertex="1" parent="evFoWq-S-fQIiJO9pxD6-18">
+          <mxGeometry width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-20" value="rados-object: &lt;b&gt;ns8/rbd_directory&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evFoWq-S-fQIiJO9pxD6-18">
+          <mxGeometry x="30" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-21" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;snap =&amp;gt; clone&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1291" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-22" value="rados-object: &lt;b&gt;ns8/rbd_children&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1291" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-23" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;data&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;xattr&lt;/font&gt;&lt;/b&gt;: 空&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;omap&lt;/font&gt;&lt;/b&gt;:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;id_{trashed_img_id}&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingRight=0;spacingBottom=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1491" width="230" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="evFoWq-S-fQIiJO9pxD6-24" value="rados-object: &lt;b&gt;ns8/rbd_trash&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1491" width="185" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="stripping" id="EZQ2SC0vCqz9PdUmc--h">
+    <mxGraphModel dx="2924" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-43" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-460" y="130" width="830" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-1" value="0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-2" value="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-3" value="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-4" value="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-5" value="rados-object-0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-26" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-27" value="5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-28" value="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-29" value="7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-30" value="rados-object-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-31" value="8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-32" value="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="10" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-33" value="10" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="50" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-34" value="writing" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="90" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-35" value="rados-object-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="170" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-37" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-38" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="250" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="290" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-40" value="rados-object-3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-42" value="图示：&lt;br&gt;&lt;ul&gt;&lt;li&gt;0代表 [0, 1M)&lt;/li&gt;&lt;li&gt;1代表 [1M, 2M)&lt;/li&gt;&lt;li&gt;2代表 [2M, 3M)&lt;/li&gt;&lt;li&gt;...&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;rbd配置：&lt;br&gt;&lt;ul&gt;&lt;li&gt;order 22&amp;nbsp; &amp;nbsp; &amp;nbsp; # 22代表2^22=4M&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;数据分布：&lt;br&gt;&lt;ul&gt;&lt;li&gt;数据连续存储于rados-object，若当前rados-object满(4M)，切换到下一个；&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;注：`rbd info`显示的stripping是指strippingv2；不显示则表示default-stripping.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="350" width="550" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-44" value="&lt;b&gt;default-stripping&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-97" y="140" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-68" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-460" y="700" width="830" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry width="830" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-66" value="图示：&lt;br&gt;&lt;ul&gt;&lt;li&gt;0代表 [0, 1M)&lt;/li&gt;&lt;li&gt;1代表 [1M, 2M)&lt;/li&gt;&lt;li&gt;2代表 [2M, 3M)&lt;/li&gt;&lt;li&gt;...&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;rbd配置：&lt;br&gt;&lt;ul&gt;&lt;li&gt;object-size 4M&lt;/li&gt;&lt;li&gt;stripe-unit 1M&lt;/li&gt;&lt;li&gt;stripe-count = 2&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;数据分布：&lt;br&gt;&lt;ul&gt;&lt;li&gt;每写入1M (strip-unit)之后切换到下一个rados-object；&lt;/li&gt;&lt;li&gt;切换2个(stripe-count) rados-object之后，返回第1个rados-object;&lt;/li&gt;&lt;li&gt;本组2个(tripe-count) rados object满之后，切换到下一组2个(stripe-count) rados object;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;注：`rbd info`显示的stripping就是指strippingv2；不显示则表示default-stripping.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="30" y="220" width="550" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-67" value="&lt;b&gt;strippingv2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="363" y="10" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4zx1hE6oxrF_s2vTVKa-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7zabMTk9LPPdQS0HM5xS-68">
+          <mxGeometry x="20" y="80" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-46" value="0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="30" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-47" value="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="70" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-48" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="110" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-49" value="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="150" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-50" value="rados-object-0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="60" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-51" value="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="230" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-52" value="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="270" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-53" value="5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="310" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-54" value="7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="350" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-55" value="rados-object-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="260" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4zx1hE6oxrF_s2vTVKa-3" value="stripe-0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7zabMTk9LPPdQS0HM5xS-68">
+          <mxGeometry x="180" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-56" value="8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="430" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-57" value="10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="470" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-58" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="510" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-59" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="550" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-60" value="rados-object-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="460" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-61" value="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="630" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-62" value="writing" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="670" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-63" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="710" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-64" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="750" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7zabMTk9LPPdQS0HM5xS-65" value="rados-object-3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7zabMTk9LPPdQS0HM5xS-68" vertex="1">
+          <mxGeometry x="660" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4zx1hE6oxrF_s2vTVKa-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="7zabMTk9LPPdQS0HM5xS-68">
+          <mxGeometry x="415" y="80" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p4zx1hE6oxrF_s2vTVKa-7" value="stripe-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7zabMTk9LPPdQS0HM5xS-68">
+          <mxGeometry x="580" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
