@@ -1,176 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T03:06:00.708Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qNQeun33a_e8R9tgK9_Y" version="24.0.6" type="device" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-03-22T11:51:18.976Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rnVuGXAg0lriq_12uNbw" version="24.0.7" type="device" pages="5">
   <diagram name="pci-class" id="i2zE_0-DaE_feogkWN8J">
     <mxGraphModel dx="2074" dy="2221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U4SU7OeVRw99y9RowwRM-2" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="64.5" y="-787" as="sourcePoint" />
-            <mxPoint x="764.5" y="-787" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-3" value="&amp;nbsp; PCI Bus-0&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4SU7OeVRw99y9RowwRM-2" vertex="1" connectable="0">
-          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-4" value="Host Bridge&lt;div&gt;(North Bridge)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="135.5" y="-879" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-7" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200.5" y="-980" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="U4SU7OeVRw99y9RowwRM-12" target="U4SU7OeVRw99y9RowwRM-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="165.5" y="-949" as="sourcePoint" />
-            <mxPoint x="465.5" y="-639" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="U4SU7OeVRw99y9RowwRM-7" target="U4SU7OeVRw99y9RowwRM-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="125.5" y="-939" as="sourcePoint" />
-            <mxPoint x="175.5" y="-869" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="U4SU7OeVRw99y9RowwRM-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="195.5" y="-792" as="sourcePoint" />
-            <mxPoint x="465.5" y="-662" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-12" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90.5" y="-980" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-14" value="Graphics Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="45.5" y="-724" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="U4SU7OeVRw99y9RowwRM-14" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="105.5" y="-785" as="sourcePoint" />
-            <mxPoint x="125.5" y="-754" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-16" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="325.5" y="-620" as="sourcePoint" />
-            <mxPoint x="765.5" y="-620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-17" value="&amp;nbsp; PCI Bus-1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4SU7OeVRw99y9RowwRM-16" vertex="1" connectable="0">
-          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
-            <mxPoint x="-119" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-18" value="Network Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="275.5" y="-724" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-19" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="U4SU7OeVRw99y9RowwRM-18" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="335.5" y="-785" as="sourcePoint" />
-            <mxPoint x="115.5" y="-714" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="U4SU7OeVRw99y9RowwRM-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="585.5" y="-623" as="sourcePoint" />
-            <mxPoint x="345.5" y="-732" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="U4SU7OeVRw99y9RowwRM-21" value="&lt;ul style=&quot;font-size: 14px; line-height: 200%;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;A tree structure of interconnected I/O buses is supported through a series of &lt;b&gt;PCI bus bridges&lt;/b&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;Every PCI device has a unique vendor ID and device ID.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;Multiple devices of the same kind are further identified by their unique device numbers on the bus where they reside.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;Typical PCI devices:&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;line-height: 200%;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;SCSI HBA&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;Graphics Adapter&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;; background-color: initial;&quot;&gt;Network Adapter&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;and so on.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;PingFang SC&quot;&gt;Each PCI peripheral&amp;nbsp;&lt;a style=&quot;margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-right-style: initial; border-bottom-style: dashed; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(187, 187, 187); border-left-color: initial; border-image: initial; text-rendering: optimizelegibility; font-kerning: normal; text-size-adjust: 100%; box-sizing: border-box; vertical-align: baseline; -webkit-font-smoothing: antialiased; color: rgb(7, 12, 15); transition: border-bottom 0.3s ease 0s; font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot; class=&quot;indexterm&quot; id=&quot;linuxdrive3-CHP-12-ITERM-6289&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;is identified by a&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;margin: 0px; padding: 0px; border: 0px; text-rendering: optimizelegibility; font-kerning: normal; text-size-adjust: 100%; box-sizing: border-box; vertical-align: baseline; -webkit-font-smoothing: antialiased; color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot; class=&quot;firstterm&quot;&gt;bus&lt;/em&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;number, a&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;margin: 0px; padding: 0px; border: 0px; text-rendering: optimizelegibility; font-kerning: normal; text-size-adjust: 100%; box-sizing: border-box; vertical-align: baseline; -webkit-font-smoothing: antialiased; color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot; class=&quot;firstterm&quot;&gt;device&lt;/em&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;number, and a&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;margin: 0px; padding: 0px; border: 0px; text-rendering: optimizelegibility; font-kerning: normal; text-size-adjust: 100%; box-sizing: border-box; vertical-align: baseline; -webkit-font-smoothing: antialiased; color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot; class=&quot;firstterm&quot;&gt;function&lt;/em&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;number. The PCI specification permits a single system to host up to 256 buses, but because 256 buses are not sufficient for many large systems, Linux now supports PCI&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;margin: 0px; padding: 0px; border: 0px; text-rendering: optimizelegibility; font-kerning: normal; text-size-adjust: 100%; box-sizing: border-box; vertical-align: baseline; -webkit-font-smoothing: antialiased; color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot; class=&quot;firstterm&quot;&gt;domains&lt;/em&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: guardian-text-oreilly, Helvetica, sans-serif; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;. Each PCI domain can host up to 256 buses. Each bus hosts up to 32 devices, and each device can be a multifunction board (such as an audio device with an accompanying CD-ROM drive) with a maximum of eight functions. Therefore, each function can be identified at hardware level by a 16-bit address, or key.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;line-height: 200%;&quot;&gt;&lt;li&gt;&lt;font face=&quot;guardian-text-oreilly, Helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;domain&amp;nbsp; : 16-bit，一般为0，好多地方都省略&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;guardian-text-oreilly, Helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;bus&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; : 8-bit&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;guardian-text-oreilly, Helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;device&amp;nbsp; &amp;nbsp;: 5-bit&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;guardian-text-oreilly, Helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;function : 3-bit&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="37.75" y="-200" width="760" height="610" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-22" value="SCSI HBA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="595.5" y="-568" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="U4SU7OeVRw99y9RowwRM-22" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="345.5" y="-632" as="sourcePoint" />
-            <mxPoint x="655.5" y="-619" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-24" value="PCI Bridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="525.5" y="-724" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-26" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="766.5" y="-478" as="sourcePoint" />
-            <mxPoint x="401.5" y="-478" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-27" value="&amp;nbsp;SCSI Bus&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4SU7OeVRw99y9RowwRM-26" vertex="1" connectable="0">
-          <mxGeometry x="-0.0061" y="-1" relative="1" as="geometry">
-            <mxPoint x="-51" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-28" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="655.5" y="-529" as="sourcePoint" />
-            <mxPoint x="655.5" y="-479" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="U4SU7OeVRw99y9RowwRM-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="585.5" y="-785" as="sourcePoint" />
-            <mxPoint x="345.5" y="-714" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-31" value="embedded&lt;div&gt;controller&lt;div&gt;e.g. hdd&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
-          <mxGeometry x="411.5" y="-420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-33" value="LUN0" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="446.5" y="-312" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="U4SU7OeVRw99y9RowwRM-31" target="U4SU7OeVRw99y9RowwRM-33" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="591.5" y="-569" as="sourcePoint" />
-            <mxPoint x="591.5" y="-490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-35" value="LUN0" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="611.5" y="-312" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-36" value="LUN1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="671.5" y="-312" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-37" value="LUN7" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="761.5" y="-312" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-38" value="bridge&lt;div&gt;controller&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
-          <mxGeometry x="651.5" y="-420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="U4SU7OeVRw99y9RowwRM-38" target="U4SU7OeVRw99y9RowwRM-36" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="481.5" y="-350" as="sourcePoint" />
-            <mxPoint x="481.5" y="-310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="U4SU7OeVRw99y9RowwRM-38" target="U4SU7OeVRw99y9RowwRM-35" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="721.5" y="-350" as="sourcePoint" />
-            <mxPoint x="706.5" y="-310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-41" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="U4SU7OeVRw99y9RowwRM-38" target="U4SU7OeVRw99y9RowwRM-37" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="721.5" y="-350" as="sourcePoint" />
-            <mxPoint x="646.5" y="-310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-42" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;...&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="721.5" y="-297" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="U4SU7OeVRw99y9RowwRM-31" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="471.5" y="-478" as="sourcePoint" />
-            <mxPoint x="481.5" y="-288" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="U4SU7OeVRw99y9RowwRM-38" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="711.5" y="-478" as="sourcePoint" />
-            <mxPoint x="481.5" y="-399" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="U4SU7OeVRw99y9RowwRM-46" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;# lspci&amp;nbsp; （第一列domain:bus:device:function，domain一般都为0，被省略）&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;00:00.0 Host bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2 (rev 01)&lt;/div&gt;&lt;div&gt;00:01.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1 (rev 01)&lt;/div&gt;&lt;div&gt;00:01.1 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1 (rev 01)&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;&lt;div&gt;00:05.4 PIC: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC (rev 01)&lt;/div&gt;&lt;div&gt;00:11.4 SATA controller: Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode] (rev 05)&lt;/div&gt;&lt;div&gt;00:1a.0 USB controller: Intel Corporation C610/X99 series chipset USB Enhanced Host Controller #2 (rev 05)&lt;/div&gt;&lt;div&gt;01:00.0 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)&lt;/div&gt;&lt;div&gt;01:00.1 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)&lt;/div&gt;&lt;div&gt;04:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div&gt;05:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;&lt;div&gt;7f:0b.1 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link ...(rev 01)&lt;/div&gt;&lt;div&gt;7f:0b.2 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link ...(rev 01)&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:00:00.0/class&amp;nbsp; &amp;nbsp; &amp;nbsp; -- 这里地址是&lt;b&gt;domain:bus:device:function&lt;/b&gt;&lt;/div&gt;&lt;div&gt;0x060000&amp;nbsp; &amp;nbsp; -- host bridge&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:00:01.0/class&lt;/div&gt;&lt;div&gt;0x060400&amp;nbsp; &amp;nbsp; -- PCI bridge&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:00:05.4/class&lt;/div&gt;&lt;div&gt;0x080020&amp;nbsp; &amp;nbsp; -- APIC interrupt controller&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:00:11.4/class&lt;/div&gt;&lt;div&gt;0x010601&amp;nbsp; &amp;nbsp; -- SATA controller (&lt;b&gt;SATA HBA&lt;/b&gt;)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:00:1a.0/class&lt;/div&gt;&lt;div&gt;0x0c0320&amp;nbsp; &amp;nbsp; --&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;USB 2 host controller&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:01:00.0/class&lt;/div&gt;&lt;div&gt;0x020000&amp;nbsp; &amp;nbsp; -- Ethernet controller&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:04:00.0/class&lt;/div&gt;&lt;div&gt;0x010802&amp;nbsp; &amp;nbsp; -- NVMe I/O controller&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:2c:00.0/class&lt;/div&gt;&lt;div&gt;0x010700&amp;nbsp; &amp;nbsp; -- SAS controller (&lt;b&gt;SAS HBA&lt;/b&gt;)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# cat /sys/bus/pci/devices/0000:7f:0b.1/class&lt;/div&gt;&lt;div&gt;0x110100&amp;nbsp; &amp;nbsp; -- performance counter&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="37.75" y="481" width="815" height="659" as="geometry" />
@@ -214,8 +49,207 @@
         <mxCell id="Giv8q0VBn0m_2GO1W-wb-1" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;# lspci -k&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(23, 23, 23); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;;&quot;&gt;the kernel driver that is being used to handle the respective PCI device&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(23, 23, 23); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Courier New&quot; color=&quot;#171717&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;......&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Courier New&quot;&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&lt;div&gt;5e:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Subsystem: Samsung Electronics Co Ltd Device a801&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Kernel driver in use: nvme&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -- NVME盘，driver是nvme&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;3c:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Subsystem: Samsung Electronics Co Ltd Device a801&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Kernel driver in use: uio_pci_generic&amp;nbsp; &amp;nbsp; &amp;nbsp;-- NVME盘，被spdk使用，所以driver不是nvme而是uio&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Kernel modules: nvme&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Kernel modules: nvme&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&lt;b&gt;# lspci -tv&amp;nbsp; &amp;nbsp;树形结构&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(23, 23, 23);&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;color: rgb(23, 23, 23);&quot;&gt;#&amp;nbsp;&lt;/b&gt;&lt;font color=&quot;#171717&quot;&gt;&lt;b&gt;dmidecode&amp;nbsp; &amp;nbsp;硬件信息，包括CPU，Memory，PCIe bus等&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="37.75" y="1201" width="815" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="2w0aoWcY_6l8if078OU5-1" value="现代计算机已经没有South bridge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="287" y="-874" width="138.5" height="30" as="geometry" />
+        <mxCell id="YjaWuzGaGnO0OJ_-u0yX-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="23" y="-1040" width="820" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="gD01vtLajq25B4YLp8H5-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YjaWuzGaGnO0OJ_-u0yX-1">
+          <mxGeometry width="820" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-2" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="YjaWuzGaGnO0OJ_-u0yX-1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="44.5" y="253" as="sourcePoint" />
+            <mxPoint x="744.5" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-3" value="&amp;nbsp; PCI Bus-0&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4SU7OeVRw99y9RowwRM-2" vertex="1" connectable="0">
+          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-4" value="Host Bridge&lt;div&gt;(North Bridge)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="115.5" y="161" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-7" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="180.5" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="YjaWuzGaGnO0OJ_-u0yX-1" source="U4SU7OeVRw99y9RowwRM-12" target="U4SU7OeVRw99y9RowwRM-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145.5" y="91" as="sourcePoint" />
+            <mxPoint x="445.5" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" source="U4SU7OeVRw99y9RowwRM-7" target="U4SU7OeVRw99y9RowwRM-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="105.5" y="101" as="sourcePoint" />
+            <mxPoint x="155.5" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" target="U4SU7OeVRw99y9RowwRM-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175.5" y="248" as="sourcePoint" />
+            <mxPoint x="445.5" y="378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-12" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="70.5" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-14" value="Graphics Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="25.5" y="316" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" target="U4SU7OeVRw99y9RowwRM-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85.5" y="255" as="sourcePoint" />
+            <mxPoint x="105.5" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-16" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="YjaWuzGaGnO0OJ_-u0yX-1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="305.5" y="420" as="sourcePoint" />
+            <mxPoint x="745.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-17" value="&amp;nbsp; PCI Bus-1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4SU7OeVRw99y9RowwRM-16" vertex="1" connectable="0">
+          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="-119" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-18" value="Network Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="255.5" y="316" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-19" value="" style="endArrow=none;html=1;rounded=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" target="U4SU7OeVRw99y9RowwRM-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315.5" y="255" as="sourcePoint" />
+            <mxPoint x="95.5" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" target="U4SU7OeVRw99y9RowwRM-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565.5" y="417" as="sourcePoint" />
+            <mxPoint x="325.5" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-22" value="HBA&lt;div&gt;(PCI-Device,也是SCSI-Controller)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="535" y="463" width="201.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" source="U4SU7OeVRw99y9RowwRM-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="325.5" y="408" as="sourcePoint" />
+            <mxPoint x="635.5" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-24" value="PCI Bridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="505.5" y="316" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-26" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" parent="YjaWuzGaGnO0OJ_-u0yX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="746.5" y="562" as="sourcePoint" />
+            <mxPoint x="381.5" y="562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-27" value="&amp;nbsp;SCSI Bus&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4SU7OeVRw99y9RowwRM-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.0061" y="-1" relative="1" as="geometry">
+            <mxPoint x="-51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-28" value="" style="endArrow=none;html=1;rounded=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635.5" y="511" as="sourcePoint" />
+            <mxPoint x="635.5" y="561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" target="U4SU7OeVRw99y9RowwRM-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565.5" y="255" as="sourcePoint" />
+            <mxPoint x="325.5" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-31" value="embedded&lt;div&gt;controller&lt;div&gt;e.g. hdd&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="391.5" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-33" value="LUN0" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="426.5" y="728" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" source="U4SU7OeVRw99y9RowwRM-31" target="U4SU7OeVRw99y9RowwRM-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571.5" y="471" as="sourcePoint" />
+            <mxPoint x="571.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-35" value="LUN0" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="591.5" y="728" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-36" value="LUN1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="651.5" y="728" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-37" value="LUN7" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="741.5" y="728" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-38" value="bridge&lt;div&gt;controller&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="631.5" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" source="U4SU7OeVRw99y9RowwRM-38" target="U4SU7OeVRw99y9RowwRM-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461.5" y="690" as="sourcePoint" />
+            <mxPoint x="461.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" source="U4SU7OeVRw99y9RowwRM-38" target="U4SU7OeVRw99y9RowwRM-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="701.5" y="690" as="sourcePoint" />
+            <mxPoint x="686.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-41" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" source="U4SU7OeVRw99y9RowwRM-38" target="U4SU7OeVRw99y9RowwRM-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="701.5" y="690" as="sourcePoint" />
+            <mxPoint x="626.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-42" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;...&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="701.5" y="743" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" target="U4SU7OeVRw99y9RowwRM-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451.5" y="562" as="sourcePoint" />
+            <mxPoint x="461.5" y="752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4SU7OeVRw99y9RowwRM-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" target="U4SU7OeVRw99y9RowwRM-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691.5" y="562" as="sourcePoint" />
+            <mxPoint x="461.5" y="641" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2w0aoWcY_6l8if078OU5-1" value="现代计算机已经没有South bridge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YjaWuzGaGnO0OJ_-u0yX-1" vertex="1">
+          <mxGeometry x="267" y="166" width="138.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD01vtLajq25B4YLp8H5-1" value="PCI-Device" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="YjaWuzGaGnO0OJ_-u0yX-1">
+          <mxGeometry x="40" y="666.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD01vtLajq25B4YLp8H5-3" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" edge="1" parent="YjaWuzGaGnO0OJ_-u0yX-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="633.5" as="sourcePoint" />
+            <mxPoint x="154.5" y="633.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gD01vtLajq25B4YLp8H5-4" value="&amp;nbsp; PCI-Bus&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gD01vtLajq25B4YLp8H5-3">
+          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gD01vtLajq25B4YLp8H5-5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="YjaWuzGaGnO0OJ_-u0yX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="154.5" y="593.5" as="sourcePoint" />
+            <mxPoint x="40" y="593.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gD01vtLajq25B4YLp8H5-6" value="&amp;nbsp;SCSI-Bus&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gD01vtLajq25B4YLp8H5-5">
+          <mxGeometry x="-0.0061" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gD01vtLajq25B4YLp8H5-7" value="SCSI-Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="YjaWuzGaGnO0OJ_-u0yX-1">
+          <mxGeometry x="40" y="730" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -225,206 +259,206 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_YiThTyEANbu4MSUc59x-126" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;CPU and RAM&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#000000;container=0;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-126" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;CPU and RAM&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#000000;container=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="-875" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XO3cDawL3WmcezkdsREe-1" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;# lspci -tv&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;+-[0000:85]-+-00.0-&lt;b&gt;[86]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-01.0-&lt;b&gt;[87]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-02.0-&lt;b&gt;[88]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-03.0-&lt;b&gt;[89]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;85:00.0, 85:01.0,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;85:02.0,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;85:03.0都是PCI-to-PCI bridge (&lt;b&gt;0x060400&lt;/b&gt;).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;#cat /sys/bus/pci/devices/0000:85:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:85:01.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:85:02.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:85:03.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;font face=&quot;Courier New&quot;&gt;它们的上级PCI bus是85，下级PCI bus分别是86, 87, 88, 89. 见上面树形结构中的方括号。也可以这样看：&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:85:00.0/&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:00.0:pcie001&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:00.0:pcie004&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:&lt;b&gt;86&lt;/b&gt;:00.0&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:85:01.0/&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:01.0:pcie001&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:01.0:pcie004&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:&lt;b&gt;87&lt;/b&gt;:00.0&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:85:02.0/&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:02.0:pcie001&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:02.0:pcie004&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:&lt;b&gt;88&lt;/b&gt;:00.0&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:85:03.0/&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:03.0:pcie001&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:85:03.0:pcie004&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 18:09 0000:&lt;b&gt;89&lt;/b&gt;:00.0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;font face=&quot;Courier New&quot;&gt;下级bus连的都是NVMe (&lt;b&gt;0x010802&lt;/b&gt;)：&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:86:00.0/class&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:87:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:88:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:89:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="760" height="880" as="geometry" />
         </mxCell>
-        <mxCell id="AUYakfZCZpEzkGMVTLSR-1" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;# lspci -tv&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;+-[0000:3a]-+-00.0-&lt;b&gt;[3b]&lt;/b&gt;--+-00.0&amp;nbsp; Mellanox Technologies MT27710 Family [ConnectX-4 Lx]&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \-00.1&amp;nbsp; Mellanox Technologies MT27710 Family [ConnectX-4 Lx]&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-02.0-&lt;b&gt;[3c]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-03.0-&lt;b&gt;[3d]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;首先，3a:00.0, 3a:02.0, 3a:03.0都是&lt;span style=&quot;background-color: initial;&quot;&gt;PCI-to-PCI bridge (&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;0x060400&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:3a:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:3a:02.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px; background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:3a:03.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;它们的上级PCI bus是3a，下级PCI bus分别是3b, 3c, 3d. 见上面树形结构中的方括号。也可以这样看:&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:3a:00.0/&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x&amp;nbsp; 3 root root&amp;nbsp; &amp;nbsp; 0 Mar&amp;nbsp; 8 18:30 0000:3a:00.0:pcie001&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 13 root root&amp;nbsp; &amp;nbsp; 0 Mar&amp;nbsp; 8 18:30 0000:&lt;b&gt;3b&lt;/b&gt;:00.0&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 13 root root&amp;nbsp; &amp;nbsp; 0 Mar&amp;nbsp; 8 18:30 0000:&lt;b&gt;3b&lt;/b&gt;:00.1&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:3a:02.0/&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:02.0:pcie001&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:02.0:pcie004&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 17:58 0000:&lt;b&gt;3c&lt;/b&gt;:00.0&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:3a:03.0/&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:03.0:pcie001&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:03.0:pcie004&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:&lt;b&gt;3d&lt;/b&gt;:00.0&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;font face=&quot;Courier New&quot;&gt;PCI bus 3b连着物理设备3b:00，这个设备包含2个逻辑设备。其实是一个network card包含2个NIC (&lt;b&gt;0x020000&lt;/b&gt;).&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3b:00.0/class&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x020000&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3b:00.1/class&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x020000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;font face=&quot;Courier New&quot;&gt;PCI bus 3c和3d各连着一个NVMe (&lt;b&gt;0x010802&lt;/b&gt;).&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3c:00.0/class&lt;/div&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3d:00.0/class&lt;/div&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="AUYakfZCZpEzkGMVTLSR-1" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;# lspci -tv&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;+-[0000:3a]-+-00.0-&lt;b&gt;[3b]&lt;/b&gt;--+-00.0&amp;nbsp; Mellanox Technologies MT27710 Family [ConnectX-4 Lx]&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \-00.1&amp;nbsp; Mellanox Technologies MT27710 Family [ConnectX-4 Lx]&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-02.0-&lt;b&gt;[3c]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-03.0-&lt;b&gt;[3d]&lt;/b&gt;----00.0&amp;nbsp; Samsung Electronics Co Ltd Device a804&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;首先，3a:00.0, 3a:02.0, 3a:03.0都是&lt;span style=&quot;background-color: initial;&quot;&gt;PCI-to-PCI bridge (&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;0x060400&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:3a:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:3a:02.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px; background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:3a:03.0/class&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060400&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;它们的上级PCI bus是3a，下级PCI bus分别是3b, 3c, 3d. 见上面树形结构中的方括号。也可以这样看:&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:3a:00.0/&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x&amp;nbsp; 3 root root&amp;nbsp; &amp;nbsp; 0 Mar&amp;nbsp; 8 18:30 0000:3a:00.0:pcie001&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 13 root root&amp;nbsp; &amp;nbsp; 0 Mar&amp;nbsp; 8 18:30 0000:&lt;b&gt;3b&lt;/b&gt;:00.0&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;drwxr-xr-x 13 root root&amp;nbsp; &amp;nbsp; 0 Mar&amp;nbsp; 8 18:30 0000:&lt;b&gt;3b&lt;/b&gt;:00.1&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:3a:02.0/&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:02.0:pcie001&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:02.0:pcie004&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Mar 14 17:58 0000:&lt;b&gt;3c&lt;/b&gt;:00.0&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#ll /sys/bus/pci/devices/0000:3a:03.0/&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:03.0:pcie001&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 3 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:3a:03.0:pcie004&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;drwxr-xr-x 5 root root&amp;nbsp; &amp;nbsp; 0 Nov 16 17:10 0000:&lt;b&gt;3d&lt;/b&gt;:00.0&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;font face=&quot;Courier New&quot;&gt;PCI bus 3b连着物理设备3b:00，这个设备包含2个逻辑设备。其实是一个network card包含2个NIC (&lt;b&gt;0x020000&lt;/b&gt;).&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3b:00.0/class&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x020000&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3b:00.1/class&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x020000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;font face=&quot;Courier New&quot;&gt;PCI bus 3c和3d各连着一个NVMe (&lt;b&gt;0x010802&lt;/b&gt;).&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3c:00.0/class&lt;/div&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:3d:00.0/class&lt;/div&gt;&lt;div&gt;0x010802&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="40" y="-560" width="760" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-60" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;# lspci -tv&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;--[0000:00]-+-00.0&amp;nbsp; Intel Corporation Device 2020&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;...&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-05.0&amp;nbsp; Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-05.2&amp;nbsp; Intel Corporation Device 2025&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-05.4&amp;nbsp; Intel Corporation Device 2026&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;00:00.0是一个Host Bridge，即North bridge&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;0x060000&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;).&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:00:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060000&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;00:05是一个带有3个logical device的物理PCI device&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:00:05.0/class&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x088000&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;--&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Other system peripheral&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:00:05.2/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x088000&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;--&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Other system peripheral&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:00:05.4/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x080020&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; --&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica;&quot;&gt;&lt;b&gt;I/O(x) APIC interrupt controller&amp;nbsp; (中断控制器)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-60" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;# lspci -tv&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;--[0000:00]-+-00.0&amp;nbsp; Intel Corporation Device 2020&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;...&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-05.0&amp;nbsp; Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-05.2&amp;nbsp; Intel Corporation Device 2025&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-05.4&amp;nbsp; Intel Corporation Device 2026&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;......&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;00:00.0是一个Host Bridge，即North bridge&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;0x060000&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;).&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;#cat /sys/bus/pci/devices/0000:00:00.0/class&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;0x060000&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;00:05是一个带有3个logical device的物理PCI device&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;#cat /sys/bus/pci/devices/0000:00:05.0/class&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x088000&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;--&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Other system peripheral&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:00:05.2/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x088000&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;--&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Other system peripheral&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#cat /sys/bus/pci/devices/0000:00:05.4/class&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;0x080020&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; --&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica;&quot;&gt;&lt;b&gt;I/O(x) APIC interrupt controller&amp;nbsp; (中断控制器)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="40" y="-1040" width="760" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-93" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-93" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="920" y="-1040" as="sourcePoint" />
             <mxPoint x="1640" y="-1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-94" value="&amp;nbsp; Bus-0&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="_YiThTyEANbu4MSUc59x-93">
+        <mxCell id="_YiThTyEANbu4MSUc59x-94" value="&amp;nbsp; Bus-0&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="_YiThTyEANbu4MSUc59x-93" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="1" relative="1" as="geometry">
             <mxPoint x="-336" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-97" value="Host / North Bridge&lt;div&gt;00:00.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-97" value="Host / North Bridge&lt;div&gt;00:00.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" parent="1" vertex="1">
           <mxGeometry x="1020" y="-974" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-98" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="_YiThTyEANbu4MSUc59x-97">
+        <mxCell id="_YiThTyEANbu4MSUc59x-98" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="_YiThTyEANbu4MSUc59x-97" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="-1035" as="sourcePoint" />
             <mxPoint x="840" y="-964" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-123" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_YiThTyEANbu4MSUc59x-97" target="_YiThTyEANbu4MSUc59x-126">
+        <mxCell id="_YiThTyEANbu4MSUc59x-123" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_YiThTyEANbu4MSUc59x-97" target="_YiThTyEANbu4MSUc59x-126" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1079.5" y="-934" as="sourcePoint" />
             <mxPoint x="1079.5" y="-873" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-124" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.cpu;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-124" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.cpu;" parent="1" vertex="1">
           <mxGeometry x="1010" y="-839" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-125" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.memory;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-125" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.memory;" parent="1" vertex="1">
           <mxGeometry x="1070" y="-831.1" width="90" height="34.2" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-127" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-127" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="920" y="-560" width="720" height="373" as="geometry" />
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-3" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-3" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint x="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-4" value="&amp;nbsp; Bus-3a&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="fH4MhzwCwd5BvL3t3lgy-3">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-4" value="&amp;nbsp; Bus-3a&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="fH4MhzwCwd5BvL3t3lgy-3" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="1" relative="1" as="geometry">
             <mxPoint x="-336" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-5" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-5" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="80" y="170" as="sourcePoint" />
             <mxPoint x="219" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-6" value="&amp;nbsp;Bus-3b&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="fH4MhzwCwd5BvL3t3lgy-5">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-6" value="&amp;nbsp;Bus-3b&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="fH4MhzwCwd5BvL3t3lgy-5" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="1" relative="1" as="geometry">
             <mxPoint x="-39" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-7" value="PCI Bridge&lt;div&gt;3a:00.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-7" value="PCI Bridge&lt;div&gt;3a:00.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="100" y="66" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127" target="fH4MhzwCwd5BvL3t3lgy-7">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_YiThTyEANbu4MSUc59x-127" target="fH4MhzwCwd5BvL3t3lgy-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="5" as="sourcePoint" />
             <mxPoint x="-80" y="76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="159.5" y="106" as="sourcePoint" />
             <mxPoint x="159.5" y="167" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-10" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-10" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="355" y="172" as="sourcePoint" />
             <mxPoint x="494" y="172" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-11" value="&amp;nbsp;Bus-3c&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="fH4MhzwCwd5BvL3t3lgy-10">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-11" value="&amp;nbsp;Bus-3c&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="fH4MhzwCwd5BvL3t3lgy-10" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="1" relative="1" as="geometry">
             <mxPoint x="-39" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-12" value="PCI Bridge&lt;div&gt;3a:02.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-12" value="PCI Bridge&lt;div&gt;3a:02.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="375" y="68" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127" target="fH4MhzwCwd5BvL3t3lgy-12">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_YiThTyEANbu4MSUc59x-127" target="fH4MhzwCwd5BvL3t3lgy-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="435" y="7" as="sourcePoint" />
             <mxPoint x="195" y="78" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="434.5" y="108" as="sourcePoint" />
             <mxPoint x="434.5" y="169" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-15" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-15" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="525" y="171.5" as="sourcePoint" />
             <mxPoint x="664" y="171.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-16" value="&amp;nbsp;Bus-3d&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="fH4MhzwCwd5BvL3t3lgy-15">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-16" value="&amp;nbsp;Bus-3d&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" parent="fH4MhzwCwd5BvL3t3lgy-15" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="1" relative="1" as="geometry">
             <mxPoint x="-39" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-17" value="PCI Bridge&lt;div&gt;85:03.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-17" value="PCI Bridge&lt;div&gt;85:03.0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="545" y="67.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127" target="fH4MhzwCwd5BvL3t3lgy-17">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_YiThTyEANbu4MSUc59x-127" target="fH4MhzwCwd5BvL3t3lgy-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="605" y="6.5" as="sourcePoint" />
             <mxPoint x="365" y="77.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="604.5" y="107.5" as="sourcePoint" />
             <mxPoint x="604.5" y="168.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127" target="_YiThTyEANbu4MSUc59x-23">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" parent="_YiThTyEANbu4MSUc59x-127" target="_YiThTyEANbu4MSUc59x-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="173" as="sourcePoint" />
             <mxPoint x="160" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_YiThTyEANbu4MSUc59x-127" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="605" y="175" as="sourcePoint" />
             <mxPoint x="605" y="238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fH4MhzwCwd5BvL3t3lgy-32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="_YiThTyEANbu4MSUc59x-127" target="_YiThTyEANbu4MSUc59x-3">
+        <mxCell id="fH4MhzwCwd5BvL3t3lgy-32" value="" style="endArrow=none;html=1;rounded=0;" parent="_YiThTyEANbu4MSUc59x-127" target="_YiThTyEANbu4MSUc59x-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="435" y="175" as="sourcePoint" />
             <mxPoint x="435" y="238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="394.8600000000001" y="235" width="80.28" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-4" value="3c:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-4" value="3c:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="405" y="292" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-23" value="&lt;font color=&quot;#000000&quot;&gt;3b:00&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;(物理网卡)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#000000;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-23" value="&lt;font color=&quot;#000000&quot;&gt;3b:00&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;(物理网卡)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#000000;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="25" y="235" width="270" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="48.27999999999997" y="280" width="103.45" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-24" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-24" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_network_adapter;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="168.27999999999997" y="280" width="103.45" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-25" value="3b:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-25" value="3b:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="70" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-26" value="3b:00.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-26" value="3b:00.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="190" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="564.8600000000001" y="235" width="80.28" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-6" value="3d:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-127">
+        <mxCell id="_YiThTyEANbu4MSUc59x-6" value="3d:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-127" vertex="1">
           <mxGeometry x="575" y="292" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-128" value="&lt;font color=&quot;#000000&quot;&gt;00:05.*&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;(物理PCI device)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#000000;container=0;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-128" value="&lt;font color=&quot;#000000&quot;&gt;00:05.*&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;(物理PCI device)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#000000;container=0;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-976.5" width="200" height="197.5" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-129" value="85:05.0&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#000000;container=0;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-129" value="85:05.0&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#000000;container=0;" parent="1" vertex="1">
           <mxGeometry x="1311" y="-908" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-130" value="85:05.2&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#000000;container=0;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-130" value="85:05.2&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#000000;container=0;" parent="1" vertex="1">
           <mxGeometry x="1331" y="-881" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-131" value="85:05.4&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#000000;container=0;" vertex="1" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-131" value="85:05.4&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#000000;container=0;" parent="1" vertex="1">
           <mxGeometry x="1351" y="-857" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-132" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="_YiThTyEANbu4MSUc59x-128">
+        <mxCell id="_YiThTyEANbu4MSUc59x-132" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="_YiThTyEANbu4MSUc59x-128" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1390" y="-1037" as="sourcePoint" />
             <mxPoint x="1377" y="-975.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-133" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="_YiThTyEANbu4MSUc59x-133" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="920" y="280" width="790" height="317" as="geometry" />
         </mxCell>
         <mxCell id="JtdkvE37WzJmWNduVDN3-1" value="" style="shape=link;html=1;rounded=0;strokeWidth=3;" parent="_YiThTyEANbu4MSUc59x-133" edge="1">
@@ -566,28 +600,28 @@
             <mxPoint x="340" y="233" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="119.8599999999999" y="230" width="80.28" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-10" value="86:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-10" value="86:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="129.99999999999977" y="287" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="649.8600000000001" y="230" width="80.28" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-13" value="89:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-13" value="89:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="660" y="287" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-15" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-15" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="470.0000000000002" y="230" width="80.28" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-16" value="88:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-16" value="88:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="480.1400000000001" y="287" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="300.0000000000002" y="230" width="80.28" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="_YiThTyEANbu4MSUc59x-22" value="87:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_YiThTyEANbu4MSUc59x-133">
+        <mxCell id="_YiThTyEANbu4MSUc59x-22" value="87:00.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="_YiThTyEANbu4MSUc59x-133" vertex="1">
           <mxGeometry x="310.1400000000001" y="287" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
