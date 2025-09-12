@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="27.2.0" pages="10">
   <diagram name="pci" id="i2zE_0-DaE_feogkWN8J">
-    <mxGraphModel dx="1841" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1833" dy="2142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,7 +63,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U4SU7OeVRw99y9RowwRM-4" value="Host Bridge&lt;div&gt;(North Bridge)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="U4SU7OeVRw99y9RowwRM-4" value="Host Bridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="138.5" y="-879" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U4SU7OeVRw99y9RowwRM-7" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -216,9 +216,6 @@
             <mxPoint x="714.5" y="-478" as="sourcePoint" />
             <mxPoint x="484.5" y="-399" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="2w0aoWcY_6l8if078OU5-1" value="现代计算机已经没有South bridge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="-874" width="138.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gD01vtLajq25B4YLp8H5-1" value="PCI-Device" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="48.5" y="-292" width="120" height="40" as="geometry" />
