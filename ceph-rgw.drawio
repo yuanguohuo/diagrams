@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5" pages="8">
   <diagram id="p-6dqNqKRs0oVdc7MsmJ" name="PutObject的数据流">
     <mxGraphModel dx="2714" dy="3650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1206,6 +1206,207 @@
             <mxPoint x="280" y="680" as="sourcePoint" />
             <mxPoint x="280" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xxhLeYhInoQKoFR1yE42" name="OSS-Trash">
+    <mxGraphModel dx="1528" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-1" value="head-object-foo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-2" value="tail-object1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-4" value="tail-object2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-5" value="......" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="fWtGd_pBy5j7lxmN3t2s-1" target="fWtGd_pBy5j7lxmN3t2s-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="190" as="sourcePoint" />
+            <mxPoint x="280" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="260" />
+              <mxPoint x="340" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="fWtGd_pBy5j7lxmN3t2s-1" target="fWtGd_pBy5j7lxmN3t2s-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="250" as="sourcePoint" />
+            <mxPoint x="350" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="290" />
+              <mxPoint x="500" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="fWtGd_pBy5j7lxmN3t2s-1" target="fWtGd_pBy5j7lxmN3t2s-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="710" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="330" />
+              <mxPoint x="660" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-14" value="&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;div&gt;Ceph RGW的特点与局限：&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;head object是来自OSS-Object-Key的; 就是说，OSS-Object-Key固定，head-object就是固定的；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;bucket对head object索引无用；因为get object的时候，不会查询bucket索引，而是直接根据head-object的名字通过CRUSH算法计算目标osd；为了少一次读盘；也能支持indexless bucket；&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;回收站实现：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;若要实现回收站，就要保留所有objects，包括head object；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;标记删除？若put一个同名OSS-Object，就会覆盖标记删除的head-object；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;rename head-object ？RADOS不支持&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 180%;&quot;&gt;考虑：rename&amp;nbsp; head-object-foo --&amp;gt; head-object-bar ，同时如果另一个线程正在put head-object-bar&lt;/div&gt;&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RADOS为什么不支持rename?&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;因为没法原子地rename。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Put、Delete操作，都需要考虑Put-Put并发，Put-Delete并发，以及覆盖旧对象等race场景，需要RADOS支持原子语义；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RADOS原子语义的支持：在head object的primary osd上（上例的osd.2），通过执行obj_classs实现（一个预加载的.so库）；&lt;/span&gt;上层主要使用的原子语义是check-and-set；&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rename之后，osd集合发生变化，所以需要跨osd；例如foo落在osd [2,3,5]上，rename成bar落在osd [8,4,6]上；&lt;b&gt;obj_class是在一个osd上执行的，无法支持跨2个osd的原子&lt;/b&gt;；&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="600" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-15" value="osd: [2, 3, 5]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="135" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-17" value="osd: [8, 4, 7]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="295" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-18" value="osd: [11, 9, 1]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="455" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWtGd_pBy5j7lxmN3t2s-19" value="..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="620" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-2" target="O9VR5Uc10WUvYqy-L9qB-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-2" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;AtomicObjectProcessor::complete()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="120" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-4" target="O9VR5Uc10WUvYqy-L9qB-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;RGWRados::Object::Write::write_meta()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="220" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;_do_write_meta(&lt;/span&gt;assume_noent=1&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="390" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-7" target="O9VR5Uc10WUvYqy-L9qB-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-7" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;get_state()&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;由于&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;assume_noent=1（假定不存在）&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;所以从RGWObjectCtx中取不到state也不查询底层RADOS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;而是直接创建并返回一个空的state{exists=0, has_attrs=1, has_manifest=0, obj_tag=&quot;&quot;}&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="510" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-9" target="O9VR5Uc10WUvYqy-L9qB-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;prepare_atomic_modification(reset_obj=1&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;再次get_state(): 这次从&lt;/span&gt;RGWObjectCtx取到上一步创建的空state{exists=0, has_attrs=1, has_manifest=0,, obj_tag=&quot;&quot;}&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;由于state是空的，所以，need_guard=false;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;op.create(true); 这不是立即执行op，而是在op中记录一个create head_obj操作。&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;注意true至关重要：它表示exclusive，即执行create操作时，若head_obj已经存在，则返回-EEXISTS(-17)&lt;/font&gt;&lt;/b&gt;；和POSIX文件系统的open(O_EXCL|O_CREAT)类似；&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;op.setxattr(RGW_ATTR_ID_TAG, bl); 这不是立即执行op，而是在op中记录一个setxattr操作，给head_obj设置tag。&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;这里设置tag也至关重要：tag是req_id，是唯一的。所以每个s3-obj有唯一的tag；3-obj被覆盖tag也变化&lt;/font&gt;&lt;/b&gt;。假定tag=unique_tag_req_id_XXX;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="740" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-11" target="O9VR5Uc10WUvYqy-L9qB-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-11" value="ref.ioctx.operate()&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;因为是覆盖写s3-obj，底层head_obj已经存在；&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;所以，operate失败，返回-EEXISTS(-17)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;原因：上一步prepare_atomic_modification，设置了op.create(true)，表示exclusive；&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="1410" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-12" value="&lt;ul&gt;&lt;li&gt;清除RGWObjectCtx中的state；&lt;/li&gt;&lt;li&gt;返回-EEXISTS(-17)；&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="940" y="1600" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-5" target="O9VR5Uc10WUvYqy-L9qB-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="410" as="sourcePoint" />
+            <mxPoint x="1260" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-12" target="O9VR5Uc10WUvYqy-L9qB-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="1070" as="sourcePoint" />
+            <mxPoint x="1450" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;_do_write_meta(&lt;/span&gt;assume_noent=0&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="390" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-17" target="O9VR5Uc10WUvYqy-L9qB-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-17" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;get_state()&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;RGWObjectCtx中的state已被清除，所以取不到；&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;但此次&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;assume_noent=0（假定存在）；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;所以查询底层RADOS；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;创建并返回查到的state{exists=1, has_attrs=1, has_manifest=1, obj_tag=unique_tag_req_id_AAA}&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="510" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-19" target="O9VR5Uc10WUvYqy-L9qB-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-19" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;prepare_atomic_modification(reset_obj=1&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;再次get_state(): 返回上一步创建的&lt;/span&gt;state{exists=1, has_attrs=1, has_manifest=1, obj_tag=unique_tag_req_id_AAA}&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;need_guard=true；&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;op.cmpxattr(RGW_ATTR_ID_TAG, LIBRADOS_CMPXATTR_OP_EQ, unique_tag_req_id_AAA);&amp;nbsp; &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;在op中记录cmpxattr操作。这是一个原子&quot;check-and-put&quot;：本op覆盖的head_obj必须是tag=&amp;nbsp;unique_tag_req_id_AAA。假如有并发的op，写入了一个tag=unique_tag_req_id_BBB的版本，或者把它删掉了，那么本op就会失败，RADOS层会返回-ECANCELED(-125)，或者-ENOENT(-2);&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;op.create(false);&amp;nbsp; 记录本op不是exclusive create；&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;store-&amp;gt;remove_rgw_head_obj(op); 在op中记录：删掉被覆盖的head_obj;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;op.setxattr(RGW_ATTR_ID_TAG, bl); 设置tag=&amp;nbsp;unique_tag_req_id_XXX; 由于这次只是重试，req_id没有变，所以还是unique_tag_req_id_XXX；&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="740" width="330" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-21" target="O9VR5Uc10WUvYqy-L9qB-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-21" value="ref.ioctx.operate()&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1390" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-15" target="O9VR5Uc10WUvYqy-L9qB-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1900" y="410" as="sourcePoint" />
+            <mxPoint x="1950" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-23" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-4" target="O9VR5Uc10WUvYqy-L9qB-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1514.46" y="320" as="sourcePoint" />
+            <mxPoint x="1319.9957142857143" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-24" value="假设if_match和if_nomatch都为NULL，则乐观假定不存在&lt;br&gt;assume_noent=1&lt;br&gt;（否则显然应该假定存在）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="270" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-25" value="乐观的代价：重试&lt;br&gt;assume_noent=0，假定存在" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1650" y="300" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-27" target="O9VR5Uc10WUvYqy-L9qB-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-27" value="complete_atomic_modification()&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;has_manifest=1：见前面从RADOS层查询到的state；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;keep_tail=0: 不保留被覆盖的s3-obj的tail objs;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;所以调用&lt;/span&gt;update_gc_chain和send_chain：在gc列表中记录被覆盖的&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1600" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-30" target="O9VR5Uc10WUvYqy-L9qB-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-21" target="O9VR5Uc10WUvYqy-L9qB-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2205" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-30" value="operate成功&lt;br&gt;即没有并发op，我们成功覆盖了tag=&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;unique_tag_req_id_AAA的head_obj;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1500" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-32" target="O9VR5Uc10WUvYqy-L9qB-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-32" value="index_op-&amp;gt;prepare()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="1100" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-34" target="O9VR5Uc10WUvYqy-L9qB-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1795" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-34" value="不需要 index_op-&amp;gt;prepare()，因为本次是重试，之前已经prepare过了。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1160" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-36" target="O9VR5Uc10WUvYqy-L9qB-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-36" value="index_op-&amp;gt;complete()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1810" width="330" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="O9VR5Uc10WUvYqy-L9qB-38" target="O9VR5Uc10WUvYqy-L9qB-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-38" value="记录quota" style="whiteSpace=wrap;html=1;rounded=1;arcSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="2110" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-39" value="返回0；" style="whiteSpace=wrap;html=1;rounded=1;arcSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="2210" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9VR5Uc10WUvYqy-L9qB-40" value="operate失败&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;返回-ECANCELED(-125)或者-ENOENT(-2)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;index_op-&amp;gt;cancel();&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;返回成功：&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;操作失败了，也cancel了，为什么返回成功呢？因为有并发的op写入了一个新的版本，或者把对象删了。那么，认为本op在它们之前就可以了：本op成功了，但被并发的op覆盖了。&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;返回其他错误：&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;返回失败；&lt;/li&gt;&lt;/ul&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="1500" width="330" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
